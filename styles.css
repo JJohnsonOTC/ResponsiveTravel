@@ -1,0 +1,58 @@
+@@charset "UTF-8";
+/* Author: Jeff Johnson
+  Date: 7/2/2021
+  Project: Responsive Travel
+  Purpose: Working with responsive design
+  Class: CIS-130 Summer Semester
+  File name: styles: .css;    */
+
+  /*
+  =============================================
+  Base Styles
+  =============================================
+  */
+
+  /*
+  =============================================
+  Mobile Styles: 0 to 480 pixels
+  =============================================
+  */
+@media only screen and (max-width: 480px){
+
+style rules
+
+
+
+
+
+
+}
+
+  /*
+  =============================================
+  Tablet Styles: 481px & up
+  =============================================
+  */
+  @media only screen and (min-width: 481px){
+
+  style rules
+
+
+
+
+  }
+
+  /*
+  =============================================
+  Desktop Styles: 769px & up
+  =============================================
+  */
+  @media only screen and (min-width: 769px){
+
+  style rules
+
+
+
+
+
+  }
