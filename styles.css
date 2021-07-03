@@ -1,4 +1,4 @@
-@@charset "UTF-8";
+@charset "UTF-8";
 /* Author: Jeff Johnson
   Date: 7/2/2021
   Project: Responsive Travel
@@ -13,32 +13,74 @@
   */
   * {margin: 0px;}
   html {
-
+    font-family: Helvetica,Arial,sans-serif;
+    background-color: rgb(255,255,255);
+    line-height: 1.15;
+    display: block;
   }
 
   body {
+
 
   }
 
   nav ul {
     list-style: none;
+    float:right;
+    padding-right: 10%;
   }
 
   nav a {
     text-decoration: none;
+    color: rgb(164, 147, 121);
+    font-variant-caps: all-small-caps;
+
+  }
+  /*
+  image styling
+  */
+  img {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  h1 {
+    text-align: center;
   }
 
+  .intro-article img {
+    display: block;
+  }
+
+  .flatheadinfo {
+    background-color: #a2b55f;
+  }
+  header {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .main1 {
+    clear: both;
+    padding-top: 10px;
+  }
   /*
   =============================================
   Mobile Styles: 0 to 480 pixels
   =============================================
   */
 @media only screen and (max-width: 480px){
-
-style rules
-
-
-
+ .local-highlights {
+    display: none;
+  }
+  .flatheadinfo {
+    display: none;
+  }
+  img {
+    max-width: 480px;
+  }
 
 
 
@@ -65,9 +107,11 @@ style rules
   */
   @media only screen and (min-width: 769px){
 
-  style rules
 
 
+    .local-highlights {
+      column-count: 3;
+    }
 
 
 
