@@ -11,6 +11,22 @@
   Base Styles
   =============================================
   */
+  * {margin: 0px;}
+  html {
+
+  }
+
+  body {
+
+  }
+
+  nav ul {
+    list-style: none;
+  }
+
+  nav a {
+    text-decoration: none;
+  }
 
   /*
   =============================================
