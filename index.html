@@ -8,29 +8,52 @@
   File name: index.html -->
   <head>
     <meta charset="utf-8">
-    <title>Welcome - Glacier Lodge</title>
+    <title>Welcome - Glacier Getaways</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="tel:+155555555555">Request a Reservation</a></li>
-        </ul>
-      </nav>
-    </header>
+      <div class="navbar" id="flatNav">
+        <a href="index.html">Home</a>
+        <a href="#">Vacation Packages</a>
+        <a href="#">Boat Rentals</a>
+        <a href="https://fwp.mt.gov/stateparks/find-a-park">Parks Info</a>
+        <a href="#">About</a>
+
+        <img src="logo.png" id="logo" alt="Glacier Getaways Logo" >
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+      </div>
+    </header><br>
     <div class="main1">
-      <article class="intro-article">
-        <h1>Welcome to Flathead Lake!</h1>
-        <img src="fhlake.png" alt="flathead lake photo">
-        <p id="glacier-main">
-          Nestled in the heart of the Northern Rocky Mountains, Flathead Lake is
-          the largest natural freshwater lake west of the Mississippi in the
-          lower 48 states, with over 200 square miles of water and 185 miles of
-          shoreline. With so many natural wonders to explore, you have unlimited
-          options to fill your next trip to this gem of Big Sky country!<p>
-      </article>
+        <article class="welcome-article">
+          <h1>CRYSTAL WATERS AWAIT YOU...</h1>
+          <h1>IN MONTANA</h1>
+          <br>
+        </article>
+  </div>
+    <div class="intro-article">
+      <div class="intro-left">
+        <h2>
+
+        </h2>
+
+      </div>
+      <div class="intro-right">
+      <p id="glacier-main">
+        Nestled in the heart of the Northern Rocky Mountains, Flathead Lake is
+        the largest natural freshwater lake west of the Mississippi in the
+        lower 48 states, with over 200 square miles of water and 185 miles of
+        shoreline. </p>
+        <p>For even more breathtaking views, a short drive North takes
+        you to <a href="https://www.nps.gov/glac/index.htm">Glacier National Park</a></p>
+
+        <p>With so many natural wonders to explore, you have unlimited
+        options to fill your next trip to this gem of Big Sky country!</p>
+          </div>
+
     </div>
     <div class="flatheadinfo">
       <h2>An escape from the hustle & bustle...</h2>
@@ -53,15 +76,15 @@
       </div>
     <div class="local-highlights">
         <article class="lodging">
-          <img src="lodging.png" alt="photo of lodges">
+          <img id="lodges" src="lodging.png" alt="photo of lodges">
 
         </article>
         <article class="mountain-adventures">
-          <img src="hiking.png" alt="hiking in mountains photo">
+          <img id="hiking" src="hiking.png" alt="hiking in mountains photo">
 
         </article>
         <article class="dining">
-          <img src="dining.png" alt="dining photo">
+          <img id="dinner" src="dining.png" alt="dining photo">
       <div class="booking">
         To
 
