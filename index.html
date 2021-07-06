@@ -10,8 +10,10 @@
     <meta charset="utf-8">
     <title>Welcome - Glacier Getaways</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- link to stylesheet from W3Schools for hamburger menu with script -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   </head>
   <body>
     <header>
@@ -22,75 +24,134 @@
         <a href="https://fwp.mt.gov/stateparks/find-a-park">Parks Info</a>
         <a href="#">About</a>
 
-        <img src="logo.png" id="logo" alt="Glacier Getaways Logo" >
+        <a href="logo" id="logo"></a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i></a>
       </div>
     </header><br>
+    <!-- First section, shown on all viewports -->
     <div class="main1">
         <article class="welcome-article">
           <h1>CRYSTAL WATERS AWAIT YOU...</h1>
           <h1>IN MONTANA</h1>
           <br>
         </article>
-  </div>
-    <div class="intro-article">
-      <div class="intro-left">
-        <h2>
+      </div>
 
-        </h2>
 
+    <div class="intro-wrapper">
+      <div class="intro-left" >
+        <!-- not shown until desktop size -->
+        <img src="ggwater.png" alt="Glacier Getaways Full Logo">
       </div>
       <div class="intro-right">
-      <p id="glacier-main">
-        Nestled in the heart of the Northern Rocky Mountains, Flathead Lake is
-        the largest natural freshwater lake west of the Mississippi in the
-        lower 48 states, with over 200 square miles of water and 185 miles of
-        shoreline. </p>
-        <p>For even more breathtaking views, a short drive North takes
-        you to <a href="https://www.nps.gov/glac/index.htm">Glacier National Park</a></p>
-
-        <p>With so many natural wonders to explore, you have unlimited
-        options to fill your next trip to this gem of Big Sky country!</p>
-          </div>
-
+        <!-- shown on all -->
+        <div class="intro-inset">
+          <p>For 14 years, <strong>Glacier Getaways</strong> has been providing guests
+          with an unforgettable experience in the scenic beauty of Flathead Lake
+          and the surrounding areas. We look forward to providing you and your
+          family the perfect vacation to make memories that last a lifetime.</p><br>
+            <a class="button" href="">
+              <div class="button-title">About Us</div>
+              <div class="button-icon"><img src="arrow.png" alt="About Us"></div>
+            </a>
+        </div>
+      </div>
     </div>
-    <div class="flatheadinfo">
-      <h2>An escape from the hustle & bustle...</h2>
-      <p>
-        Recreation on and around the lake includes: sailing, power boating,
-        waterskiing, swimming, fishing, picnicking, and camping.
-      </p>
-      <p>In the summer, roadside stands along the east shore offer a variety of
-        locally grown cherries, apples, plums, and other fruits.</p>
-      <p>There are numerous motels and rental cabins in addition to public
-        campgrounds scattered all around the shoreline. </p>
-      <p>Thirteen public access sites are maintained by Montana Fish Wildlife
-        and Parks around the lake. These sites include: Sportsmans Bridge,
-        Somers, Big Fork, and Juniper Beach fishing access sites; Wayfarers,
-        Woods Bay, Yellow Bay, Finely Point, Walstad Memorial, Big Arm, and Elmo
-        state recreation areas.
-      <a href="https://fwp.mt.gov/stateparks/find-a-park">Learn More</a>
 
-      </p>
+
+    <div class="special-wrapper">
+      <div class="special-left">
+        <!-- shown on all -->
+      <div class="special-inset">
+        <h1>MID-SUMMER SPECIAL</h1>
+        <p>Come join us this summer with our new five-night getaway package that
+         showcases the best of life at Flathead Lake!</p>
+        <p>Perfect for couples or families, enjoy adventures in the picturesque
+          landscape and rest easy in cozy accommodations.</p>
+
+        <p>This package includes horseback trail rides, guided fishing excursions
+           with shoreside lunches prepared by top-notch chefs, late night beach
+           fires with hors d'oeuvres and wine pairings, live music & more!</p><br>
+        <a class="button" href="">
+          <div class="button-title">Book Now</div>
+          <div class="button-icon"><img src="arrow.png" alt="Book Now"></div>
+        </a>
+        </div>
       </div>
-    <div class="local-highlights">
-        <article class="lodging">
-          <img id="lodges" src="lodging.png" alt="photo of lodges">
 
-        </article>
-        <article class="mountain-adventures">
-          <img id="hiking" src="hiking.png" alt="hiking in mountains photo">
+      <div class="special-right">
+        <!-- picture not shown until tablet size -->
+      </div>
+    </div>
 
-        </article>
-        <article class="dining">
-          <img id="dinner" src="dining.png" alt="dining photo">
-      <div class="booking">
-        To
+    <div class="intro-wrapper">
+      <div class="intro-left">
+        <div class="trees-inset">
+          <!-- not shown until tablet size -->
+        <img class="pinetrees" src="pinetrees.png" alt="Pine Trees">
+          </div>
+      </div>
+      <div class="intro-right">
+        <div class="intro-inset">
+          <p>Nestled in the heart of the Northern Rocky Mountains, Flathead Lake is
+            the largest natural freshwater lake west of the Mississippi in the
+            lower 48 states, with over 200 square miles of water and 185 miles of
+            shoreline. </p>
+          <p>For even more breathtaking views, a short drive North takes
+            you to Glacier National Park.</p>
+          <p>With so many natural wonders to explore, you have unlimited
+            options to fill your next trip to this gem of Big Sky country!</p><br>
+            <a class="button" href="https://www.nps.gov/glac/index.htm">
+              <div class="button-title">Explore</div>
+              <div class="button-icon"><img src="arrow.png" alt="Book Now"></div>
+            </a>
+        </div>
+      </div>
+    </div>
+    <!-- not shown until desktop size -->
+    <div class="info-wrapper">
+      <div class="info-left">
 
       </div>
-      </article>
+      <div class="info-right">
+        <div class="GGinset">
+
+
+        <h1>SUMMER ON THE LAKE</h1>
+        <p>
+          Recreation on and around the lake includes: sailing, power boating,
+          waterskiing, swimming, fishing, picnicking, and camping.
+        </p>
+        <p>In the summer, roadside stands along the east shore offer a variety of
+          locally grown cherries, apples, plums, and other fruits.</p>
+        <p>There are numerous motels and rental cabins in addition to public
+          campgrounds scattered all around the shoreline. </p>
+        <p>Thirteen public access sites are maintained by Montana Fish Wildlife
+          and Parks around the lake. These sites include: Sportsmans Bridge,
+          Somers, Big Fork, and Juniper Beach fishing access sites; Wayfarers,
+          Woods Bay, Yellow Bay, Finely Point, Walstad Memorial, Big Arm, and Elmo
+          state recreation areas.</p><br>
+          <a class="button" href="https://fwp.mt.gov/stateparks/find-a-park">
+            <div class="button-title">Learn More</div>
+            <div class="button-icon"><img src="arrow.png" alt="Learn More"></div>
+          </a>
+         </div>
       </div>
-    <footer></footer>
+    </div>
+    <footer>
+      <div class="footerlegal">
+        &copy;2021 &nbsp;&nbsp; Glacier Getaways &nbsp; All Rights Reserved.
+      </div>
+    </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("flatNav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "flatNav";
+      }
+    </script>
   </body>
 </html>
