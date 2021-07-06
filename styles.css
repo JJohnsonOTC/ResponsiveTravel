@@ -240,7 +240,6 @@ Tablet Styles: 481px & up
     display: contents;
   }
   .button {
-    padding: none;
     display: inline-block;
     height: 42px;
     margin-left: 1em;
